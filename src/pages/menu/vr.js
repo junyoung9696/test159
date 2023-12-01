@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import styled from "styled-components";
 import Link from 'next/link';
 
+
 const MovieContainer = styled.div`
   width: 720px;
   height: 500px;

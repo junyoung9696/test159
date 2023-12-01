@@ -33,6 +33,7 @@ import Level27 from "@/components/3Dmodel/gltf_exports/Level27-colored";
 import Level28 from "@/components/3Dmodel/gltf_exports/Level28-colored";
 import Level29 from "@/components/3Dmodel/gltf_exports/Level29-colored";
 import Level30 from "@/components/3Dmodel/gltf_exports/Level30-colored";
+import Footer from "@/components/footer";
 
 const ModelContainer = ({ model: ModelComponent, play, ...props }) => {
   return (
@@ -183,6 +184,7 @@ const Three = () => {
           </div>
         </div>
       </div>
+      
     </>
   );
 };
@@ -200,6 +202,9 @@ const ChatBubble = ({ chats }) => {
       ? "chat-bubble chat-bubble-error"
       : "chat-bubble";
 
+    
+      <Footer/>
+
     return (
       <div key={index} className="chat chat-start">
         <div className={bubbleClassName}>{chat.message}</div>
@@ -208,7 +213,9 @@ const ChatBubble = ({ chats }) => {
         </div>
       </div>
     );
+    
   });
 };
+
 
 export default Three;

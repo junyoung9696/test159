@@ -3,6 +3,7 @@ import { Canvas, useThree } from "@react-three/fiber";
 import { Stage, OrbitControls } from "@react-three/drei";
 import Navbar from "@/components/Navbar";
 import { useState } from "react";
+import Footer from "@/components/footer";
 
 export default function Control() {
   const [stemColor, setStemColor] = useState("#00ff00");
@@ -104,6 +105,7 @@ export default function Control() {
           />
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

@@ -13,6 +13,8 @@ import Bellpepper_step8 from "@/components/3Dmodel/Bellpepper_step8";
 import Bellpepper_step9 from "@/components/3Dmodel/Bellpepper_step9";
 import Bellpepper_step10 from "@/components/3Dmodel/Bellpepper_step10";
 
+import Footer from "@/components/footer";
+
 function CameraControls() {
   const { camera } = useThree();
   camera.position.z = -7;

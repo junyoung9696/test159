@@ -10,6 +10,7 @@ import {
   Section4,
 } from "@/components/main/Sections";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/footer";
 
 function Home() {
   const section1Ref = useRef(null);
@@ -81,6 +82,7 @@ function Home() {
           align-items: center;
         }
       `}</style>
+    <Footer/>
     </>
   );
 }

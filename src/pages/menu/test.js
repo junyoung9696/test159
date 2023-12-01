@@ -4,6 +4,8 @@ import { Stage, OrbitControls } from "@react-three/drei";
 import BGtest from "@/components/3Dmodel/BGtest.jsx";
 import { useEffect, useState } from "react";
 
+import Footer from "@/components/footer";
+
 function CameraControls() {
   const { camera } = useThree();
   camera.position.set(0, 1, 15);
@@ -65,6 +67,7 @@ export default function Test() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
