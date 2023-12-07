@@ -23,7 +23,7 @@ function Chart() {
         />
         </div>
         <div className="artboard phone-3">
-        <Image src="/video/test4.gif" alt="y" width={720} height={120}/>
+        <Image unoptimized={true} src="/video/test4.gif" width={720} height={120}/>
         </div>
         </div>
         
@@ -33,12 +33,12 @@ function Chart() {
 
         <div className="img auto-mx flex w-screen space-x-2">
         <div className="artboard phone-3">
-        <Image src="/video/test5.gif" alt="y" width={720} height={120}/>
+        <Image src="/video/test5.gif" width={720} height={120}/>
         </div>
         <div className="artboard phone-3 mx-auto">
         </div>
         <div className="artboard phone-3 mx-auto">
-        <Image src="/video/test6.gif" alt="y" width={720} height={120}/>
+        <Image src="/video/test6.gif" width={720} height={120}/>
         </div>
         </div>
 

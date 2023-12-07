@@ -100,6 +100,11 @@ function Navbar() {
                 VR (HoloLens2)
               </Link>
             </div>
+            <div>
+              <Link className="hover:text-gray-300" href="/menu/db">
+                Local Dashboard
+              </Link>
+            </div>
           </div>
 
           <div className="flex items-center space-x-8">
